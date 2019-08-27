@@ -7,6 +7,7 @@
            <v-card-text>
             <v-row>
                 <v-text-field
+                    name="name"
                     v-model="firstname"
                     :rules="nameRules"
                     :counter="30"
@@ -15,6 +16,7 @@
                 ></v-text-field>
                           
                 <v-text-field
+                    name="email"
                     v-model="email"
                     :rules="emailRules"
                     label="E-mail"
@@ -23,6 +25,7 @@
                  </v-row>
                 <v-row>
                 <v-textarea
+                    name="message"
                     counter
                     :rules="MesajRules"
                     label="Mesaj"

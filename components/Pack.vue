@@ -28,7 +28,7 @@
         </v-card-title>
 
         <v-card-actions>
-          <v-btn dark type='button' aria-label="Contact" to="/Contact" id="top" class="mx-1" color="#039BE5"><strong>Contact</strong></v-btn>
+          <v-btn dark type='button' aria-label="Contact" to="/Contact" id="top" class="mx-1" color="#039BE5">Contact</v-btn>
         </v-card-actions>
       </v-card>
         </v-flex>
@@ -56,7 +56,7 @@
         </v-card-title>
 
         <v-card-actions>
-         <v-btn dark type='button' aria-label="Contact" to="/Contact" id="top" class="mx-1" color="#039BE5"><strong>Contact</strong></v-btn>
+         <v-btn dark type='button' aria-label="Contact" to="/Contact" id="top" class="mx-1" color="#039BE5">Contact</v-btn>
         </v-card-actions>
       </v-card>
       </v-flex>
@@ -85,7 +85,7 @@
           </div>
         </v-card-title>
         <v-card-actions>
-         <v-btn dark type='button' aria-label="Contact" to="/Contact" id="top" class="mx-1" color="#039BE5"><strong>Contact</strong></v-btn>
+         <v-btn dark type='button' aria-label="Contact" to="/Contact" id="top" class="mx-1" color="#039BE5">Contact</v-btn>
         </v-card-actions>
       </v-card>
       </v-flex>
@@ -118,7 +118,7 @@
         </v-card-title>
 
         <v-card-actions>
-          <v-btn dark type='button' aria-label="Contact" to="/Contact" id="top" class="mx-1" color="#039BE5"><strong>Contact</strong></v-btn>
+          <v-btn dark type='button' aria-label="Contact" to="/Contact" id="top" class="mx-1" color="#039BE5">Contact</v-btn>
         </v-card-actions>
       </v-card>
         </v-flex>
@@ -148,7 +148,7 @@
         </v-card-title>
 
         <v-card-actions>
-          <v-btn dark type='button' aria-label="Contact" to="/Contact" id="top" class="mx-1" color="#039BE5"><strong>Contact</strong></v-btn>
+          <v-btn dark type='button' aria-label="Contact" to="/Contact" id="top" class="mx-1" color="#039BE5">Contact</v-btn>
         </v-card-actions>
       </v-card>
       </v-flex>
@@ -181,7 +181,7 @@
         </v-card-title>
 
         <v-card-actions>
-         <v-btn dark type='button' aria-label="Contact" to="/Contact" id="top" class="mx-1" color="#039BE5"><strong>Contact</strong></v-btn>
+         <v-btn dark type='button' aria-label="Contact" to="/Contact" id="top" class="mx-1" color="#039BE5">Contact</v-btn>
         </v-card-actions>
       </v-card>
         
@@ -195,6 +195,10 @@ h2{
   color: #293347;
   text-align:center;
   margin: 10px;
+}
+
+p {
+  font-size: 20px;
 }
 
 </style>

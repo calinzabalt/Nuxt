@@ -80,12 +80,12 @@
      <v-flex xs12 sm4>
       <div class="links">
         <p>Link-uri utile:</p>
-         <v-btn aria-label="terms" text to="/terms"><h3>Termeni & Conditii</h3></v-btn><br/>
-         <v-btn aria-label="privacy" text to="/terms"><h3>Politica de confidentialitate</h3></v-btn>
+         <v-btn aria-label="terms" text to="/terms"><h4>Termeni & Conditii</h4></v-btn><br/>
+         <v-btn aria-label="privacy" text to="/terms"><h4>Politica de confidentialitate</h4></v-btn>
         </div>
     </v-flex>  
     <div class="copy">
-   <h3>&copy;2019 — <strong>All rights reserved</strong></h3>
+   <h5>&copy;2019 — All rights reserved></h5>
     </div>
     </v-layout>    
     </v-footer>

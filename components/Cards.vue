@@ -18,7 +18,7 @@
         </v-card-title>
 
         <v-card-actions>
-          <v-btn dark type='button' aria-label="Servici" to="/Services" id="top" class="mx-1" color="#039BE5"><strong>Servicii</strong></v-btn>
+          <v-btn dark type='button' aria-label="Servici" to="/Services" id="top" class="mx-1" color="#039BE5">Servicii</v-btn>
         </v-card-actions>
       </v-card>
         </v-flex>
@@ -40,7 +40,7 @@
         </v-card-title>
 
         <v-card-actions>
-          <v-btn dark type='button' aria-label="Servici" id="top" to="/Services" class="mx-1" color="#039BE5"><strong>Servicii</strong></v-btn>
+          <v-btn dark type='button' aria-label="Servici" id="top" to="/Services" class="mx-1" color="#039BE5">Servicii</v-btn>
         </v-card-actions>
       </v-card>
       </v-flex>
@@ -62,7 +62,7 @@
         </v-card-title>
 
         <v-card-actions>
-         <v-btn dark type='button' aria-label="Servici" id="top" to="/Services" class="mx-1" color="#039BE5"><strong>Servicii</strong></v-btn>
+         <v-btn dark type='button' aria-label="Servici" id="top" to="/Services" class="mx-1" color="#039BE5">Servicii</v-btn>
         </v-card-actions>
       </v-card>
         
@@ -74,5 +74,6 @@
 <style scoped>
 p {
   text-align: center;
+  font-size: 24px;
 }
 </style>
