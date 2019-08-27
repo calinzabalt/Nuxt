@@ -1,0 +1,27 @@
+{
+  "name": "websolver-nuxt",
+  "version": "1.0.0",
+  "description": "Innovator and Problem solver",
+  "author": "MasterCalin",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.10.2",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "nuxt": "^2.0.0",
+    "nuxt-fontawesome": "^0.4.0",
+    "vue-social-sharing": "^2.4.6"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "@mdi/font": "^4.1.95",
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
