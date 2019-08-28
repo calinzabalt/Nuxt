@@ -4,7 +4,7 @@
     {{ HEAD }}
   </head>
   <body {{ BODY_ATTRS }}>
-        <v-form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <v-form name="contact" method="POST" data-netlify="true">
             <v-text-field type="text" name="name" />
             <v-text-field type="email" name="email" />
             <v-textarea name="message"></textarea>
