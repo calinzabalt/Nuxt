@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    {{ HEAD }}
+  </head>
+  <body {{ BODY_ATTRS }}>
+        <v-form name="contact" netlify netlify-honeypot="bot-field" hidden>
+            <v-text-field type="text" name="name" />
+            <v-text-field type="email" name="email" />
+            <v-textarea name="message"></textarea>
+        </v-form>
+    {{ APP }}
+  </body>
+</html>

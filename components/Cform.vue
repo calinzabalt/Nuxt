@@ -2,7 +2,7 @@
     <v-container>
          <v-layout>
         <v-flex>
-        <form name="contact" method="POST" data-netlify="true">
+        <v-form name="contact" method="POST" data-netlify="true">
           <v-card>
            <v-card-text>
             <v-row>
@@ -37,7 +37,7 @@
              <v-btn color="primary" type="submit">Trimite</v-btn>
                  </v-card-text>
                 </v-card>
-            </form>
+            </v-form>
        </v-flex>
     </v-layout>
   
