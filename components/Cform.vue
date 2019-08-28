@@ -7,6 +7,7 @@
            <v-card-text>
             <v-row>
                 <v-text-field
+                    type="text"
                     name="name"
                     v-model="firstname"
                     :rules="nameRules"
@@ -16,6 +17,7 @@
                 ></v-text-field>
                           
                 <v-text-field
+                    type="email"
                     name="email"
                     v-model="email"
                     :rules="emailRules"

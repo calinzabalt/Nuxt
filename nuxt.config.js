@@ -5,6 +5,9 @@ export default {
   plugins: [
     { src: '~plugins/ga.js', ssr: false }
   ],
+  vuetify: {
+    customVariables: ['~/assets/variables.scss']
+  },
   /*
   ** Headers of the page
   */
