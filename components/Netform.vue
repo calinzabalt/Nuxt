@@ -5,13 +5,13 @@
       Contact
   </h1>
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
+    <label>Nume: <input type="text" name="name" /></label>   
   </p>
   <p>
-    <label>Your Email: <input type="email" name="email" /></label>
+    <label>Email: <input type="email" name="email" /></label>
   </p>
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+    <label>Mesaj: <textarea name="message"></textarea></label>
   </p>
   <p>
     <button type="submit">Trimite</button>
