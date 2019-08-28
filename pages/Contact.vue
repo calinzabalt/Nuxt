@@ -6,7 +6,7 @@
     <p>0740 691 940 <br>
        Websolvercalin@gmail.com
     </p>      
-   <Cform />
+   <Netform />
    </v-container>
    </div>
 </template>
@@ -14,11 +14,13 @@
 <script>
 import Intro2 from '~/components/Intro2.vue'
 import Cform from '~/components/Cform.vue'
+import Netform from '~/components/Netform'
 
 export default {
   components: {
     Intro2,
-    Cform
+    Cform,
+    Netform
   },
   data () {
   return {
