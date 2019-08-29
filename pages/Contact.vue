@@ -13,13 +13,11 @@
 
 <script>
 import Intro2 from '~/components/Intro2.vue'
-import Cform from '~/components/Cform.vue'
 import Netform from '~/components/Netform'
 
 export default {
   components: {
     Intro2,
-    Cform,
     Netform
   },
   data () {
