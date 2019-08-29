@@ -4,6 +4,7 @@
   <h1 class="title">
       Contact
   </h1>
+  <input type="hidden" name="form-name" value="contact" />
   <p>
     <label>Nume: <input type="text" name="name" /></label>   
   </p>
