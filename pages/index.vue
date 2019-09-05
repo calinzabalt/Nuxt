@@ -3,6 +3,7 @@
  <Intro />
  <About />
  <Cards />
+ <Plan />
  </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Intro from '~/components/Intro.vue'
 import About from '~/components/About.vue'
 import Cards from '~/components/Cards.vue'
+import Plan  from '~/components/Plan.vue'
 
 export default {
   components: {
     Intro,
     About,
-    Cards
+    Cards,
+    Plan
   },
 
 data () {
