@@ -50,7 +50,11 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    '@nuxtjs/google-analytics', {
+      id: 'UA-117582450-1'
+    }
   ],
+  
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
