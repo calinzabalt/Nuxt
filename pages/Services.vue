@@ -3,6 +3,7 @@
    <h1>Servicii Web</h1>
    <p>De la găzduire și găsirea domeniului potrivit, până la implementarea și întreținerea site-ului web zilnic.</p>
    <Pack />
+   <Mentenanta />
    <Carousel />
    <Table />
   </v-container>
@@ -12,12 +13,14 @@
 import Pack from '~/components/Pack.vue'
 import Carousel from '~/components/Carousel.vue'
 import Table from '~/components/Table.vue'
+import Mentenanta from '~/components/Mentenanta.vue'
 
 export default {
   components: {
     Pack,
     Carousel,
-    Table
+    Table,
+    Mentenanta
   },
 data () {
   return {
