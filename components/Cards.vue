@@ -12,7 +12,7 @@
           <div>
             <p><strong>Ce facem noi ?</strong></p>
             <p>Noi construim website-uri unice si profesionale pentru orice tip de companie,
-               startap-uri si freelancers (liberi independenti)
+               startup-uri si freelancers (liberi independenti)
             </p>
           </div>
         </v-card-title>
@@ -32,8 +32,8 @@
 
         <v-card-title primary-title>
           <div>
-            <p><strong>Ce tehnologi folosim ?</strong></p> 
-            <p>Noi folosim tehnologi precum React.js, Vue.js, Netlify,
+            <p><strong>Ce tehnologii folosim ?</strong></p> 
+            <p>Noi folosim tehnologii precum React.js, Vue.js, Netlify,
                Wordpress, Drupal pentru a satisface nevoile clientilor.
             </p>   
           </div>
