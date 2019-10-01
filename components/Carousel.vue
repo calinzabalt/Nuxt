@@ -44,6 +44,11 @@
 </script>
 
 <style scoped>
+.v-carousel {
+ border: 4px solid #333745;
+ border-radius: 0px 20px 0px 0px;
+ margin-bottom: 10px;
+}
 
 .title{
   position: absolute;
