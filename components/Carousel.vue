@@ -23,19 +23,19 @@
       return {
         items: [
           {
-            src: '/images/pipemax.png', title: 'Acest Website este facut in Wordpress'
+            src: '/images/pipemax.png', title: 'Servicii profesionale de Ozonizare si Decarbonizare (Pipemax.ro)'
           },
           {
-            src: '/images/vremea1.png', title: 'Find out the weather in your country'
+            src: '/images/vremea1.png', title: 'Află vremea din orasul tau'
           },
           {
-            src: '/images/count.png', title: 'This is a simple application that show how many days, hours, minutes and seconds are until your select date.'
+            src: '/images/via.png', title: 'Progreseaza prin inovatie (viaengineering-development.com)'
           },
           {
-            src: '/images/books.png', title: 'This is an application where you can search for your favorite books.'
+            src: '/images/books.png', title: 'Aceasta este o aplicație unde puteți căuta cărțile preferate.'
           },
           {
-            src: '/images/reminder1.png', title: 'Why waste paper on a list. Build your own online with reminder'
+            src: '/images/reminder1.png', title: 'Construiește-ți lista online cu reminder'
           }
         ]
       }

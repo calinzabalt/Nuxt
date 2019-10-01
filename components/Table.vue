@@ -6,8 +6,8 @@
       >
         <v-expansion-panel-header>Pipemax.ro</v-expansion-panel-header>
         <v-expansion-panel-content>
-        <a href="http://website.pipemax.ro/" target="blank">Pipemax.ro</a> este un website care ofera servicii de ozonizare si decarbonizare.
-        <v-btn role="button" aria-label="Examples" color="green" href="http://website.pipemax.ro/" target="blank">Website</v-btn> 
+        <a href="https://www.pipemax.ro/" target="blank"></a>
+        <v-btn role="button" aria-label="Examples" color="green" href="https://www.pipemax.ro/" target="blank">Website</v-btn> 
         </v-expansion-panel-content>
       </v-expansion-panel>
       <v-expansion-panel
@@ -22,10 +22,9 @@
       <v-expansion-panel
         
       >
-        <v-expansion-panel-header>Countdown-app!</v-expansion-panel-header>
+        <v-expansion-panel-header>viaengineering-development.com</v-expansion-panel-header>
         <v-expansion-panel-content>
-        <v-btn role="button" aria-label="Examples" color="green" href="https://calinzabalt.github.io/count-down/" target="blank">Website</v-btn>
-        <v-btn role="button" aria-label="Examples" href="https://github.com/calinzabalt/count-down" target="blank">Github-link</v-btn> 
+        <v-btn role="button" aria-label="Examples" color="green" href="https://viaengineering-development.com/" target="blank">Website</v-btn>
         </v-expansion-panel-content>
       </v-expansion-panel>
       <v-expansion-panel
