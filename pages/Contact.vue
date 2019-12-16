@@ -2,7 +2,7 @@
 <div class="contact">
 <Intro2 />
  <v-container>
-    <h1>Metode de contact:</h1>
+    <h1>Contact methods:</h1>
     <p>0740 691 940 <br>
        Websolvercalin@gmail.com
     </p>      

@@ -1,29 +1,26 @@
 <template>
 <div>
  <Intro />
+ <Presentation />
  <About />
- <Cards />
- <Plan />
- </div>
+</div>
 </template>
 
 <script>
 import Intro from '~/components/Intro.vue'
 import About from '~/components/About.vue'
-import Cards from '~/components/Cards.vue'
-import Plan  from '~/components/Plan.vue'
+import Presentation from '~/components/Presentation.vue'
 
 export default {
   components: {
     Intro,
     About,
-    Cards,
-    Plan
+    Presentation
   },
 
 data () {
   return {
-    title: 'Bine ai venit!'
+    title: 'Welcome!'
   }
 },
 head () {

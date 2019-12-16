@@ -30,11 +30,18 @@
       app
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title v-text="title" />
+      <nuxt-link to="/#">
+      <v-img
+      src="images/logo.png"
+      max-height="50"
+      max-width="50"
+      contain
+      ></v-img>
+      </nuxt-link>
       <v-spacer />
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn aria-label="Home" text to="/#">Acasa</v-btn>
-        <v-btn aria-label="Services" text to="/Services">Servicii</v-btn>
+        <v-btn aria-label="Home" text to="/#">Home</v-btn>
+        <v-btn aria-label="Services" text to="/Services">Services</v-btn>
         <v-btn aria-label="Contact" text to="/Contact">Contact</v-btn>
        
       </v-toolbar-items>  
@@ -47,21 +54,19 @@
     </v-content>
    
     <v-footer>
+      <no-ssr><cookie-law theme="dark-lime"></cookie-law></no-ssr>
       <v-layout justify-center row wrap>
       <v-flex xs12 sm4>
       <div class="social">
         <p>Social media links:</p>
+        <v-btn aria-label="facebook" type='button' href="https://www.linkedin.com/in/cozma-viorel-calin-947658145/" target="blank" large icon class="light-blue darken-4">
+            <v-icon medium color="white">mdi-linkedin</v-icon>
+        </v-btn>
         <v-btn aria-label="linkedn" type='button' href="https://www.facebook.com/CozmaViorelCalinPFA/" target="blank" large icon class="light-blue darken-3">
             <v-icon medium color="white">mdi-facebook</v-icon>
         </v-btn>
-        <v-btn aria-label="facebook" type='button' href="https://www.linkedin.com/in/cozma-viorel-calin-947658145/" target="blank" large icon class="light-blue darken-4">
-             <v-icon medium color="white">mdi-linkedin</v-icon>
-        </v-btn>
         <v-btn aria-label="youtube" type='button' href="https://www.youtube.com/channel/UC2CNVDGd1odpr7UqsiIM68g?view_as=subscriber" target="blank" large icon class="deep-orange darken-4">
             <v-icon medium color="white">mdi-youtube</v-icon>
-        </v-btn>
-         <v-btn aria-label="instagram" type='button' href="https://www.instagram.com/cozmaviorelcalin/" target="blank" large icon class="orange darken-3">
-            <v-icon medium color="white">mdi-instagram</v-icon>
         </v-btn>
         <v-btn aria-label="instagram" type='button' href="https://twitter.com/Cozmaviorelcal1" target="blank" large icon class="light-blue darken-2">
             <v-icon medium color="white">mdi-twitter</v-icon>
@@ -72,16 +77,16 @@
       <div class="available">
       <p>Cozma Viorel Calin (PFA)</p>
       <p>websolvercalin@gmail.com</p>
-      <p>Telefon: 0740 691 940</p>
+      <p>Phone: 0740 691 940</p>
        <v-btn aria-label="contact" type='button' to="/contact" id="v-parallax" color="blue" large>Contact</v-btn> 
         
     </div>
     </v-flex> 
      <v-flex xs12 sm4>
       <div class="links">
-        <p>Link-uri utile:</p>
-         <v-btn aria-label="terms" text to="/terms"><h4>Termeni & Conditii</h4></v-btn><br/>
-         <v-btn aria-label="privacy" text to="/terms"><h4>Politica de confidentialitate</h4></v-btn>
+        <p>Useful Links:</p>
+         <v-btn aria-label="terms" text to="/terms"><h4>Terms & Conditions</h4></v-btn><br/>
+         <v-btn aria-label="privacy" text to="/terms"><h4>Privacy policy</h4></v-btn>
         </div>
     </v-flex>  
     <div class="copy">
@@ -125,7 +130,13 @@ footer {
 </style>
 
 <script>
+import CookieLaw from 'vue-cookie-law'
+
 export default {
+  components:  {
+    CookieLaw
+},
+
   data () {
     return {
       clipped: false,
@@ -134,12 +145,12 @@ export default {
       items: [
         {
           icon: 'mdi-home',
-          title: 'Acasa',
+          title: 'Home',
           to: '/'
         },
         {
           icon: 'mdi-briefcase',
-          title: 'Servicii',
+          title: 'Services',
           to: '/Services'
         },
         {
@@ -149,12 +160,12 @@ export default {
         },
          {
           icon: 'mdi-information',
-          title: 'Termeni & Conditii',
+          title: 'Terms & Conditions',
           to: '/Terms'
         },
         {
           icon: 'mdi-information-outline',
-          title: 'Politica de confidentialitate',
+          title: 'Privacy policy',
           to: '/Terms'
         }
       ],

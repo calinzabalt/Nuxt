@@ -23,19 +23,19 @@
       return {
         items: [
           {
-            src: '/images/pipemax.png', title: 'Servicii profesionale de Ozonizare si Decarbonizare (Pipemax.ro)'
+            src: '/images/pipemax.png', title: 'Professional Ozonation and Decarbonisation Services (Pipemax.ro)'
           },
           {
-            src: '/images/vremea1.png', title: 'Află vremea din orasul tau'
+            src: '/images/vremea1.png', title: 'Find out the weather in your city'
           },
           {
-            src: '/images/via.png', title: 'Progreseaza prin inovatie (viaengineering-development.com)'
+            src: '/images/via.png', title: 'Progress through innovation (viaengineering-development.com)'
           },
           {
-            src: '/images/books.png', title: 'Aceasta este o aplicație unde puteți căuta cărțile preferate.'
+            src: '/images/books.png', title: 'This is an application where you can search for your favorite books.'
           },
           {
-            src: '/images/reminder1.png', title: 'Construiește-ți lista online cu reminder'
+            src: '/images/reminder1.png', title: 'Build your online list with reminder'
           }
         ]
       }

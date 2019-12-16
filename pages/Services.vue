@@ -1,12 +1,15 @@
 <template>
  <v-container>
-   <h1>Servicii Web</h1>
-   <p>De la găzduire și găsirea domeniului potrivit, până la implementarea și întreținerea site-ului web zilnic.</p>
-   <Pack />
-   <Mentenanta />
+   <h1>Latest Projects</h1>
    <Carousel />
    <Table />
-  </v-container>
+   <div class="services">
+   <h1>Packages & Pricing</h1>
+   </div>
+   <p>From hosting and finding the right domain, to building websites and maintaining them everyday.</p>
+   <Pack />
+   <Mentenanta />
+    </v-container>
 </template>
 
 <script>
@@ -39,8 +42,10 @@ head () {
 </script>
 
 <style scoped>
+.services {
+  margin-top: 20px
+}
 p{
-  padding-bottom: 10px;
   color: #293347;
   margin: 10px;
   font-size: 22px;
@@ -49,6 +54,7 @@ p{
   text-align: center;
 }
 h1{
+  padding-top: 16px;
   color: #293347;
   text-align:center;
 }

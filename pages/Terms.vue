@@ -1,63 +1,61 @@
 <template>
 <v-container>
-    <h1>Termeni & Conditii</h1>
+    <h1>Terms & Conditions</h1>
         <h2>Welcome to Websolver!</h2><br>
         <p>Cozma Viorel-Calin Persoana Fizica Autorizata, Unique Reg.No: 41208077, EUID:ROONRC.F2/575/2019,
-            Trade Reg. No: F2/575/31.05.2019, adresa: Zabalt no. 84, Arad, Romania
+            Trade Reg. No: F2/575/31.05.2019, address: Zabalt no. 84, Arad, Romania
         </p>
 
         <h3>Cookies</h3> <p>
-            Noi folosim cookie-uri.
-            Accesând websolver, ați acceptat să utilizați cookie-uri
-            în acord cu Politica de confidențialitate Cozma Viorel-Calin Persoana
+            We use cookies. By accessing the websolver, 
+            you have agreed to use cookies in accordance 
+            with the Privacy Policy Cozma Viorel-Calin Persoana
             Fizica Autorizata.
-            Majoritatea site-urilor web interactive folosesc cookie-uri pentru a ne
-            permite să regăsim datele utilizatorului pentru fiecare vizită.
-
+            Most interactive websites use cookies to enable us to
+            retrieve user data for each visit.
            
-            Cookie-urile sunt utilizate de site-ul nostru web pentru a permite funcționalitatea
-            anumitor zone pentru a facilita persoanelor care vizitează site-ul nostru web.
-            Unii dintre partenerii noștri afiliați / publicitari pot utiliza, de asemenea, cookie-uri.
+            Cookies are used by our website to allow functionality in certain areas 
+            to facilitate people visiting our website.
+            Some of our affiliate / advertising partners may also use cookies.
         </p>
         
-        <h3>Licență</h3>
+        <h3>License</h3>
         <p>
-            Cu excepția cazului în care se prevede altfel, Cozma Viorel-Calin
-            Persoana Fizica Autorizata și / sau autorizații săi dețin drepturile
-            de proprietate intelectuală pentru toate materialele de pe websolver
-            . Toate drepturile de proprietate intelectuală sunt rezervate.
-            Puteți accesa această platformă web pentru utilizarea personală, 
-            sub rezerva restricțiilor stabilite în acești termeni și condiții. <br>
-            Trebuie să nu: <br>
-           - Republica, vinde, închiria sau sub-licență material din websolver.<br>
-           - Reproducerea, duplicarea sau copierea materialului din websolver<br>
-           - Redistribuiți conținutul de pe site-ul web.
+            Unless otherwise stated, Cozma Viorel-Calin Persoana Fizica Autorizata and 
+            / or its authorizations hold the intellectual property rights for all
+             materials on the websolver.
+            All intellectual property rights are reserved. You may access this web platform
+            for personal use, subject to the restrictions set out in these terms and conditions. <br>
+            You must not: <br>
+           - Republish, sell, rent or license material from websolver.<br>
+           - Reproduction, duplication or copying of the material from the websolver<br>
+           - Redistribute the content from the website.
         </p>
 
-        <h3>Politica de rambursare</h3>
+        <h3>Refund policy</h3>
         <p>
-        Clientul va fi rambursat dacă:<br>
-        - Nu livrăm serviciul în termen.<br>
-        - Nu este mulțumit de serviciu înainte de ultima implementare.<br>
+        The customer will be refunded if:<br>
+        - We do not deliver the service on time.<br>
+        - He is not satisfied with the service before the last implementation.<br>
         <br>
-        Clientul nu va fi rambursat dacă:<br>
-        - A cumpărat domeniul și serverul greșit.<br>
-        - Serviciul a fost gata și lansat.<br>
-        - El ne oferă informații greșite.
+        The customer will not be refunded if:<br>
+        - Bought the wrong domain and server.<br>
+        - The service was ready and launched.<br>
+        - He gives us wrong information.
 
         </p>
-        <h3>Drepturile utilizatorilor</h3>
+        <h3>Users rights</h3>
         <p>
-        - Ei pot cere să ștergeți datele lor.<br>
-        - Fiecare utilizator este liber să își exprime opinii despre servicii sau alte lucruri, fără a fi criticat, jignit și hărțuit.<br>
-        - Utilizatorii pot modifica setările browserului pentru modul în care Google face reclamă.
+        - They can ask you to delete their data..<br>
+        - Every user is free to express their opinions about services or other things, without being criticized, offended and harassed.<br>
+        - Users can change their browser settings for how Google advertises.
         </p>
-        <h1>Politica de confidentialitate</h1>
+        <h2>Privacy policy</h2>
         <p>
-            La websolver, ne pasă de confidențialitatea dvs.<br>
-            După cum știți, noi colectăm date precum: Prenume, Nume și adresă de e-mail.
-            Acest lucru ne ajută să ne înțelegem mai bine clientul și să-i trimitem un mesaj înapoi.
-            Websolver nu va vinde, împărtăși sau nu va face rău informațiilor dvs. Dacă aveți întrebări cu privire la confidențialitatea noastră, vă rugăm să ne contactați la adresa: websolvercalin@gmail.com.
+            At websolver, we care about your privacy<br>
+            As you know, we collect data such as: First Name, Last Name and Email Address.
+            This helps us to understand our client better and send him a message back.
+            Websolver will not sell, share or harm your information. If you have any questions about our privacy, please contact us at: websolvercalin@gmail.com.
         </p>
 </v-container>
 </template>

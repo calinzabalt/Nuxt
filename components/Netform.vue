@@ -1,30 +1,31 @@
 <template>
 <v-container>
-<form name="contact" method="POST" data-netlify="true">
-  <h1 class="title">
-      Contact
-  </h1>
-  <input type="hidden" name="form-name" value="contact" />
-  <p>
-    <label>Nume: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Mesaj: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Trimite</button>
-  </p>
+<form
+  action="https://formspree.io/xdokvpao"
+  method="POST"
+>
+  <h2>Contact Us</h2>
+  <label>
+    <p>Your Name:</p>
+    <input type="text" name="name">
+  </label>
+  <label>
+    <p>Email:</p>
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    <p>Message:</p>
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
 </form>
 </v-container>
 </template>
 
 <style scoped>
-.title {
-  margin-bottom: 20px;
-}
 form {
   margin-left: auto;
   margin-right: auto;
@@ -39,9 +40,10 @@ input, textarea, text{
     width: 900px;
     max-width: 100%;
     resize: none;
-    background-color: #f4f5f8;
-    height: 35px;
-    border: 1px solid #171717
+    background-color: white;
+    height: 45px;
+    border: 1px solid #171717;
+    font-size: 21px;
 }
 
 textarea{
@@ -49,7 +51,7 @@ textarea{
 }
 
 form textarea, input{
-  padding:5px;
+  padding:10px;
 }
 
 form button{
@@ -61,4 +63,11 @@ form button{
     border:none;
     color:#fff;
 }
+
+p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
 </style>
+

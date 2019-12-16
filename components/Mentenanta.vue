@@ -5,11 +5,11 @@
         <v-card>
         <v-card-title primary-title>
           <div>
-            <p><strong>Servicii Mentenanta <br>99lei/luna</strong></p>
+            <p><strong>Maintenance <br>20€/month</strong></p>
             <p>
-                - Corectarea Erorilor <br>
-                - Adaugare Continut <br>
-                - Testarea Tehnica
+                - Bug fixes <br>
+                - Add Content <br>
+                - Technical Testing
             </p>
              </div>
         </v-card-title>
@@ -20,13 +20,13 @@
         <v-card>
         <v-card-title primary-title>
           <div>
-            <p><strong>Servicii Mentenanta <br>199lei/luna</strong></p> 
+            <p><strong>Maintenance <br>41€/month</strong></p> 
             <p>
-                - Corectarea Erorilor <br>
-                - Adaugare Continut <br>
-                - Structura Website <br>
-                - Testare Tehnica <br>
-                - Optimizare SEO
+                - Bug fixes <br>
+                - Add Content <br>
+                - Website structure <br>
+                - Technical Testing <br>
+                - SEO optimization
             </p>   
           </div>
         </v-card-title>
@@ -37,16 +37,16 @@
         <v-card>
         <v-card-title primary-title>
           <div>
-            <p><strong>Servicii Mentenanta <br>499lei/luna</strong></p>
+            <p><strong>Maintenance <br>104€/month</strong></p>
             <p>
-                - Corectarea Erorilor <br>
-                - Adaugare Continut <br>
-                - Structura Website <br>
-                - Optimizare SEO <br>
-                - Scop Website <br>
-                - Obiective <br>
-                - Public Tinta <br>
-                - Testare Tehnica 
+                - Bug fixes <br>
+                - Add Content <br>
+                - Website structure <br>
+                - SEO optimization <br>
+                - Website Purpose <br>
+                - Objectives <br>
+                - Target Audience <br>
+                - Technical Testing
             </p>   
           </div>
         </v-card-title>
@@ -54,16 +54,10 @@
         </v-flex>
 
     </v-layout>
-    <h2>Ultimele Proiecte</h2>
   </v-container>
 </template>
 
 <style scoped>
-h2{
-  color: #293347;
-  text-align:center;
-  margin: 10px;
-}
 p {
     font-size: 20px;
 }
